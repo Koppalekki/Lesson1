@@ -1,16 +1,10 @@
-if __name__ == '__main__':
+dialog={'привет': 'И тебе привет!', 'как дела': 'Лучше всех', 'пока': 'Увидимся'}
+def get_answer(dialog, question):
 	dialog={'привет': 'И тебе привет!', 'как дела': 'Лучше всех', 'пока': 'Увидимся'}
-	answer=dialog[input('Вопрос')]
+	question=input('Введите вопрос ')
+	print (dialog[question])
+		return dialog[response]
+		
 
-
-
-
-
-	answer=dialog.get(input('type question'))
-
-
-
-	def get_answer(response):
-		response=answer
-
+if __name__ == '__main__':
 	get_answer(question)
